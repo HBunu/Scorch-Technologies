@@ -1,0 +1,147 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('images\photo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #ccc;
+}
+.free{
+  text-align: right;
+}
+h1{
+  text-align: center;
+  font-family: ebrima;
+  font-weight: bold;
+  color: blue;
+  padding-top: 25px;
+  font-size: 4em;
+}
+.mytabs {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0;
+}
+.mytabs input[type="radio"] {
+  display: none;
+}
+.mytabs label {
+  padding: 25px;
+  background: whitesmoke;
+  font-weight: bold;
+  color: grey;
+  width: 200px;
+}
+.mytabs .tab {
+  width: 100%;
+  padding: 20px;
+  background-color: palegoldenrod;
+  order: 1;
+  display: none;
+}
+.mytabs .tab h2 {
+  font-size: 2em;
+}
+.mytabs input[type="radio"]:checked + label + .tab {
+  display: block;
+}
+
+.home-image {
+  width: 1000px;
+  height: 500px;
+}
+
+footer {
+background-color: burlywood;
+position: relative;
+margin-top: -100px;
+height: 100px;
+clear: both;
+}
+
+table {
+width: 100%;
+}
+
+td {
+text-align: center;
+}
+
+html, body {
+height: 100%;
+}
+.container {
+max-width: 1200px;
+margin: auto;
+overflow: auto;
+}
+
+.gallery {
+margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width: 390px;
+}
+
+.gallery img {
+width: 100%;
+height: auto;
+}
+
+.disc {
+padding: 15px;
+text-align: center;
+}
+
+.scorch {
+min-height: 100px;
+}
+
+.main {
+overflow: auto;
+padding-bottom: 100px;
+}
+
+h2 {
+text-align: center;
+color: blue;
+font-style: italic;
+}
+
+.image-text {
+position: absolute;
+top: 50%; 
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+padding: 10px 20px;
+font-size: 18px;
+z-index: 1;
+font-weight: bolder;
+font-family: sans-serif;
+}
+
+.explore-button input[type="explore"]{
+padding: 8px;
+ border-radius: 10px;
+ margin: 5px auto;
+ border: 1px solid blueviolet;
+ background-color: orange;
+ box-shadow: 1px 2px 1px 2px rgb(230, 229, 229);
+ color: black;
+ outline: none;
+ font-size: 18px;
+ text-align: center;
+}
+
+.explore-button {
+  text-align: center;
+}
+
+.mytabs input[type="radio"]:checked + label {
+  background-color: gold;
+}
